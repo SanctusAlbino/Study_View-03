@@ -1,0 +1,37 @@
+/* 스타일리시트 주석문 기호 */ 
+/* 1. 전체/공용 선택자(universal selector) */
+.naver {
+    color:green;
+    display: inline-block;
+}
+.naver li {
+    display: inline-block;
+}
+/* 2. 태그 선택자(tag selector) : 1개가 아닌 모두~ */
+p {
+    background-color: olivedrab;
+    color: white;
+}
+
+/* 3. 클래스 선택자(class selector) : 여러번 반복, 재사용*/
+.myClass {
+    padding: 15px 20px;
+    border: 1px solid olivedrab;
+}
+
+/* 4. 아이디 선택자(id selector) : 문서 내에서 한번만 사용*/
+body {
+    background-color: #f4aaaa;
+}
+#wrap {
+    background-color: white;
+    border: 1px dotted ;
+    padding: 10px 20px;
+    margin: 50px 100px;
+}
+/* 5. 그룹 선택자(group selector)*/
+p, h2, .border {
+    border-width: 3px;    /*선-두께*/
+    border-style: dashed; /*선-종류*/
+    margin: 15px;         /*바깥 여백*/
+}
